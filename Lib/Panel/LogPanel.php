@@ -17,6 +17,7 @@ App::uses('DebugPanel', 'DebugKit.Lib');
  * Log Panel - Reads log entries made this request.
  */
 class LogPanel extends DebugPanel {
+    public $logger = null;
 
 /**
  * Constructor - sets up the log listener.
